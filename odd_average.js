@@ -24,4 +24,4 @@ function oddAverage(numbers){
 
 const numbers = [58,63,55,54,77,99,98,97,51,22];
 const avg = oddAverage(numbers);
-console.log("average of the odd numbers is: ",avg.toFixed(2));
+console.log("average of the odd numbers is: ",avg.toFixed(2)); 
