@@ -17,5 +17,14 @@ function inchToFeet2(inch){
     return result;
 }
 
-const towfiqueHeight = inchToFeet2(75);
-console.log(towfiqueHeight);
+/* const towfiqueHeight = inchToFeet2(75);
+console.log(towfiqueHeight); */
+
+
+function mileToKilometer(mile){
+    const kilo = mile * 1.60934;
+    return kilo
+}
+
+const roadMap = mileToKilometer(5);
+console.log(roadMap.toFixed(2) + " km ");
